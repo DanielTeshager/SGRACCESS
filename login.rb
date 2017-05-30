@@ -15,8 +15,8 @@ $result = []
 
     form = page.form_with(:action => '/sgr/responseLogin.do')
 
-    form.fields[0].value  = "dteshage"
-    form.fields[1].value  = "Kassanesh67"
+    form.fields[0].value  = ""
+    form.fields[1].value  = ""
     $result=form.submit
     sleep(2)
 
